@@ -45,12 +45,15 @@
       }
     ]
   },
-  "migrations": [
-    {
-      "tag": "v1",
-      "new_classes": ["Sandbox"]
-    }
-  ],
+
+
+"migrations": [
+  {
+    "new_sqlite_classes": ["Sandbox"],
+    "tag": "v1"
+  }
+],
+
   "r2_buckets": [
     {
       "binding": "MOLTBOT_BUCKET",
