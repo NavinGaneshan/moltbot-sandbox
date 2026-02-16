@@ -52,10 +52,10 @@
   
 "migrations": [
   {
-    "new_class_id": "Sandbox",
-    "new_class_name": "Sandbox"
+    "tag": "v1",
+    "new_classes": ["Sandbox"]
   }
-],
+ ],
   // R2 bucket for persistent storage (moltbot data, conversations, etc.)
   "r2_buckets": [
     {
